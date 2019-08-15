@@ -1,0 +1,82 @@
+.saper {
+  display: flex;
+  border: blue 3px solid;
+  margin: 100px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.saper-field {
+  box-sizing: border-box;
+  border: rgb(7, 114, 69) 1px solid;
+  background-color: rgb(162, 160, 185);
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.bomb-field {
+  box-sizing: border-box;
+  border: rgb(7, 114, 69) 1px solid;
+  background-color: rgb(162, 160, 185);
+  /* background-color: rgb(255, 78, 78); */
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.saper-loose {
+  border: rgb(8, 0, 0) 5px solid;
+  font-size: 100px;
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: rgb(238, 247, 214);
+  background-color: rgba(22, 11, 11, 0.3);
+}
+
+.saper-win {
+  border: rgb(50, 219, 7) 5px solid;
+  font-size: 100px;
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 80px;
+  text-align: center;
+  color: rgb(237, 248, 81);
+  background-color: rgba(167, 175, 224, 0.3);
+}
+
+.props {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.enter-length {
+  width: 100px;
+}
+
+.new-game {
+  width: 80px;
+}
+
+.number-of-bombs {
+  display: inline-block;
+  background: rgb(202, 235, 165);
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+}
